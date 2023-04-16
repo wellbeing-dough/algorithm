@@ -11,7 +11,7 @@ public class p10828Lib {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
         StringTokenizer st;
-        Stack<Integer> stack = new Stack<Integer>();
+        Stack<Integer> stack = new Stack<>();
         int t = Integer.parseInt(br.readLine());
 
         for(int i = 0; i < t; i++) {
