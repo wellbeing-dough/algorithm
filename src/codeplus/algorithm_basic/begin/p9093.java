@@ -31,3 +31,5 @@ public class p9093 {
 //        bw.flush();
     }
 }
+//String sentence = br.readLine() + "\n"; 끝에 줄바꿈 추가해줘야 줄이 바뀐줄 알고 다음줄 넘어가기 전에 마지막 단어 바꾸기 가능
+//if(ch == '\n' || ch == ' ') 여기서 '\n' 이 있어야 다음줄 넘어가기 전에 마지막 단어 바꾸기 가능
