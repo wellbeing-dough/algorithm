@@ -1,4 +1,4 @@
-package codeplus.algorithm_basic.begin;
+package codeplus.algorithm_basic.datastructure;
 
 import java.io.BufferedReader;
 import java.io.IOException;
