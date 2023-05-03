@@ -13,10 +13,6 @@ public class p1373 {
         String insert = br.readLine();
 
         int len = insert.length();
-//
-//        for(int i = 0; i < len; i++) {
-//            System.out.println(insert.charAt(i));
-//        }
 
         if(len % 3 == 1) {
             System.out.print(insert.charAt(0));
