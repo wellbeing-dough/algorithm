@@ -29,7 +29,7 @@ public class p6588 {
             int a = 0, b = 0;
             boolean result = false;
 
-            for(int i = 3; i < num; i++) {
+            for(int i = 2; i < num; i++) {
                 if(erase[i] == false) {
                     a = i;
                     b = num - a;

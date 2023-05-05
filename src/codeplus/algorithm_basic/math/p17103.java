@@ -17,7 +17,7 @@ public class p17103 {
 
         for(int i = 2; i * i <= 1000000; i++) {
             if(erase[i] == false) {
-                for(int j = i + i; j <= 1000000; j = j + i){
+                for(int j = i + i; j <= 1000000; j = j + i) {
                     erase[j] = true;
                 }
             }
@@ -27,16 +27,10 @@ public class p17103 {
 
         while(t-- > 0) {
             int insert = Integer.parseInt(br.readLine());
-            int a = 0;
-            int b = 0;
             int count = 0;
-            for(int i = 3; i <= insert / 2; i++) {
-                if(erase[i] == false) {
-                    a = i;
-                    b = insert - a;
-                    if(erase[b] == false) {
-                        count++;
-                    }
+            for(int i = 2; i <= insert / 2; i++) {
+                if(erase[i] == false && erase[insert - i] == false) {
+                    count++;
                 }
             }
             sb.append(count + "\n");
