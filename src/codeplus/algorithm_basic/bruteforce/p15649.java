@@ -1,4 +1,4 @@
-package codeplus.algorithm_basic.backtraking;
+package codeplus.algorithm_basic.bruteforce;
 
 import java.io.BufferedReader;
 import java.io.IOException;
