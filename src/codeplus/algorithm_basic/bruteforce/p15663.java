@@ -41,10 +41,9 @@ public class p15663 {
             return;
         }
 
-
+        int before = 0;
 
         for(int i = 1; i <= n; i++) {
-            int before = 0;
             if(c[i] == true) {
                 continue;
             }
