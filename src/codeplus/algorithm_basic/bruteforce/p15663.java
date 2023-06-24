@@ -44,17 +44,14 @@ public class p15663 {
         int before = 0;
 
         for(int i = 1; i <= n; i++) {
-            if(c[i] == true) {
+            if(c[i] == true || before == num[i]) {
                 continue;
             }
-
-            if(before != num[i]) {
-                c[i] = true;
-                a[index] = num[i];
-                before = num[i];
-                go(index + 1);
-                c[i] = false;
-            }
+            c[i] = true;
+            a[index] = num[i];
+            before = num[i];
+            go(index + 1);
+            c[i] = false;
         }
     }
 }
