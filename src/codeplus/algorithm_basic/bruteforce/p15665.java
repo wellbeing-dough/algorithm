@@ -15,7 +15,7 @@ public class p15665 {
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
 
-        a = new int[m + 1];
+        a = new int[m];
         num = new int[n + 1];
         c = new boolean[n + 1];
 
@@ -26,15 +26,15 @@ public class p15665 {
         }
 
         Arrays.sort(num);
-        go(1);
+        go(0);
         System.out.println(sb);
 
     }
 
     private static void go(int index) {
 
-        if(index == m + 1) {
-            for(int i = 1; i <= m; i++) {
+        if(index == m) {
+            for(int i = 0; i < m; i++) {
                 sb.append(a[i] + " ");
             }
             sb.append("\n");
